@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: verdana, tahoma, sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', cursive; color: #ffffff;
+}
+
+header{
+    text-align: center;
+    font-family: var(--fonte3);
+    font-size: 25px;
+    
+}
+
+body{
+    background-image: url('imagens/360_F_482079087_jTfhGFhJgMeWt40zI9qhgjTQX7zXtLd0.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+
+#introducao {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308)); 
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#conceitos {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308)); 
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#praticas {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308));     
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#ferramentas {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308)); 
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+
+#beneficios {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308));  
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#exemplos {
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308));  
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#conclusao{
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308));  
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+#referencias{
+    border: 4px solid white; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 0.1), rgba(255, 255, 255, 0.308)); 
+    padding: 20px; 
+    margin: 50px;
+    font-family: var(--fonte3);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+
+
