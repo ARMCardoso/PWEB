@@ -1,0 +1,76 @@
+h2::before {
+    content: "Cor: Preto";
+    color: azure;
+  }
+   
+  @media (min-width: 1921px) {
+    body {
+        background-color: lightblue;
+    }
+    h2::before {
+      content: "COR: LIGHTBLUE";
+      color: black;
+    }
+  }
+   
+  @media (max-width: 1920px) {
+    body {
+        background-color: lightcyan;
+    }
+    h2::before {
+      content: "COR: LIGHCYAN";
+      color: black;
+    }
+  }
+   
+  @media (max-width: 1366px) {
+    body {
+      background-color: lightgray;
+    }
+    h2::before {
+      content: "COR: LIGHTGRAY";
+      color: black;
+    }
+  }
+   
+  @media (max-width: 1080px) {
+    body {
+      background-color: lightpink;
+    }
+    h2::before {
+      content: "COR: LIGHTPINK";
+      color: black;
+    }
+  }
+   
+  @media (max-width: 1024px) {
+    body {
+      background-color: lightgreen;
+    }
+    h2::before {
+      content: "COR: LIGHTGREEN";
+      color: black;
+    }
+  }
+   
+  
+  @media (max-width: 768px) {
+    body {
+      background-color: lightseagreen;
+    }
+    h2::before {
+      content: "COR: LIGHTSEAGREEN";
+      color: black;
+    }
+  }
+   
+  
+  @media (max-width: 420px) {
+    body {
+      background-color:aquamarine;
+    }
+    h2::before {
+      content: "COR: AQUAMARINE";
+      color: rgb(255, 255, 255);
+    }
+  }
