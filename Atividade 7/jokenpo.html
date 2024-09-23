@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joken Po</title>
+</head>
+<body>
+    
+</body>
+<script>
+        var escolha = Number(window.prompt("Escolha sua jogada: 1- Pedra 2- Papel 3- Tesoura"))
+        var escolhaPc = Math.floor(Math.random()* 3) + 1
+        var resultado
+
+            switch(escolha){
+                case(1):
+                    if(escolha == escolhaPc){
+                        resultado = "Empate"
+                    }else if(escolhaPc == 2){
+                        resultado = "Papel cobre Pedra, Computador escolheu: " + escolhaPc
+                    }else{
+                        resultado = "Pedra quebra Tesoura, Computador escolheu: " + escolhaPc
+                    }
+                        break;
+
+                case(2):
+                    if(escolha == escolhaPc){
+                        resultado = "Empate"
+                    }else if(escolhaPc == 1){
+                        resultado = "Papel cobre Pedra, Computador escolheu: " + escolhaPc
+                    }else{
+                        resultado = "Tesoura corta papel, Computador escolheu: " + escolhaPc
+                    }
+                        break;
+
+                case(3):
+                    if(escolha == escolhaPc){
+                        resultado = "Empate"
+                    }else if(escolhaPc == 1){
+                        resultado = "Pedra quebra tesoura, Computador escolheu: " + escolhaPc
+                    }else{
+                        resultado = "Tesoura corta papel, Computador escolheu: " + escolhaPc
+                    }    
+                        break;
+                default:
+                        resultado = "Escolha inválida"
+            }
+
+            window.alert(resultado)
+</script>
+</html>
