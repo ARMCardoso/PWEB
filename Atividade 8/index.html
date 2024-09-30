@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pesquisa de Opinião</title>
+</head>
+<body>
+    <h3>Pesquisa de Opinião - Lançamento de Filme</h3>
+    <div class="card">
+        <div class="card-body">
+            <form id="formu">
+                <label for="idade">Idade: </label>
+                <input type="number" name="idade" id="idade" required>
+ 
+                <label for="sexo">Sexo: </label>
+                <select name="sexo" id="sexo">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+ 
+                <label for="opiniao">Opinião: </label>
+                <select name="opiniao" id="opiniao">
+                    <option value="4">Ótimo</option>
+                    <option value="3">Bom</option>
+                    <option value="2">Regular</option>
+                    <option value="1">Péssimo</option>
+                </select>
+ 
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </div>
+ 
+    <div class="resultados">
+        <h4>Resultados:</h4>
+        <p id="mediaIdade">Média da Idade: </p>
+        <p id="idadeVelha">Idade da Pessoa Mais Velha: </p>
+        <p id="idadeNova">Idade da Pessoa Mais Nova: </p>
+        <p id="pessimoQtd">Quantidade de Respostas "Péssimo": </p>
+        <p id="percentOtimoBom">Porcentagem de Respostas "Ótimo" e "Bom": </p>
+        <p id="homensMulheres">Número de Homens e Mulheres: </p>
+    </div>
+ 
+    <script src="index.js"></script>
+</body>
+</html>

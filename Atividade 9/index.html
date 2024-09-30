@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h3>Escolha e preencha conforme solicitado: </h3>
+
+    <div class="card">
+        <div class="card-body">
+            <p>Digite 3 Números para calcular o maior entre eles: </p>
+            <form id="formu1">
+                <label for="numero1">Número 1: </label>
+                <input type="text" name="numero1" id="numero1">
+                <label for="numero2">Número 2: </label>
+                <input type="text" name="numero2" id="numero2">
+                <label for="numero3">Número 3: </label>
+                <input type="text" name="numero3" id="numero3">
+                <button type="submit">Calc Maior</button>
+                <textarea id="saida1" rows="4" cols="50" readonly></textarea>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <p>Digite 3 Números para coloca-los em ordem crescente: </p>
+            <form id="formu2">
+                <label for="numero4">Número 1: </label>
+                <input type="text" name="numero4" id="numero4">
+                <label for="numero5">Número 2: </label>
+                <input type="text" name="numero5" id="numero5">
+                <label for="numero6">Número 3: </label>
+                <input type="text" name="numero6" id="numero6">
+                <button type="submit">Crescente</button>
+                <textarea id="saida2" rows="4" cols="50" readonly></textarea>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <p>Digite uma string para verificar se é palindromo: </p>
+            <form id="formu3">
+                <label for="frase"></label>
+                <input type="text" name="numero7" id="frase1">
+                <button type="submit">Verifica Palindromo</button>
+                <textarea id="saida3" rows="4" cols="50" readonly></textarea>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <p>Digite a medida de 3 lados para verificar se é triangulo: </p>
+            <form id="formu4">
+                <label for="numero10">Lado 1: </label>
+                <input type="text" name="numero10" id="lado1">
+                <label for="numero11">Lado 2: </label>
+                <input type="text" name="numero11" id="lado2">
+                <label for="numero12">Lado 3: </label>
+                <input type="text" name="numero12" id="lado3">
+                <button type="submit">Triangulo</button>
+                <textarea id="saida4" rows="4" cols="50" readonly></textarea>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
