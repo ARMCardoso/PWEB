@@ -13,6 +13,8 @@ const $createButton = document.getElementById('createButton');
 const $editButton = document.getElementById('editButton');
 const $visualizarTask = document.getElementById('visualizarTask');
 
+const $form = document.getElementById('form1');
+
 
 
 var tasks = localStorage.getItem("tasks");
@@ -102,9 +104,9 @@ function gerarCard() {
         let showNotificationIcon1 = false;
         let showNotificationIcon2 = false;
 
-        if (aviso <= 3) {
+        if (aviso <= 3 & status != 3 & status != 4) {
             showNotificationIcon = true;
-        } else if (aviso <= 5) {
+        } else if (aviso <= 5 & status != 3 & status != 4) {
             showNotificationIcon1 = true;
         } else {
             showNotificationIcon = false;
@@ -112,9 +114,9 @@ function gerarCard() {
         }
 
         if (status == 4) {
-            showNotificationIcon2 = true;
             showNotificationIcon = false;
             showNotificationIcon1 = false;
+            showNotificationIcon2 = true;
         } else {
             showNotificationIcon2 = false;
         }
@@ -197,9 +199,8 @@ function createTask() {
 
 
 function editTask() {
-    const form = document.getElementById('form1');
 
-    if (form.checkValidity()) {
+    if ($form.checkValidity()) {
 
         const task = {
             id: $idInput.value,
@@ -346,7 +347,13 @@ function resetModal() {
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
         closeModal();
+    } else if (event.key === 'Enter') {
+        event.preventDefault();
     }
 });
+
+
+
+
 
 
